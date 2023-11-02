@@ -1,0 +1,19 @@
+.Dropdown-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: green;
+}
+
+.currency-label{
+    font-weight: bold;
+
+}
+.currency-dropdown{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #d1d1d1;
+    appearance: none;
+    background-color: #f9f9f9;
+}

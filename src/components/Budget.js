@@ -11,7 +11,11 @@ const Budget = () => {
     return (
 <div className='alert alert-secondary'>
 <span>Budget: £{budget}</span>
-<input type="number" step="10" value={newBudget} onChange={handleBudgetChange}></input>
+
+<div className="input-group-prepend">
+                    <span className="input-group-text" id="basic-addon1">$</span>
+                </div>
+                <input type="number" step="10" value={newBudget} onChange={handleBudgetChange}></input>
 </div>
     );
 };
